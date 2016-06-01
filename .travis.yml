@@ -1,3 +1,6 @@
+notifications:
+  email:
+    - nooh64@gmail.com
 before_install:
  - chmod +x gradlew
 language: android
@@ -9,7 +12,7 @@ android:
     # - tools
 
     # The BuildTools version used by your project
-    - build-tools-23.0.3
+    - build-tools-23.0.2
 
     # The SDK version used to compile your project.
     - android-23
