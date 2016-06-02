@@ -3,6 +3,7 @@ notifications:
     - nooh64@gmail.com
 before_install:
  - chmod +x gradlew
+ - chmod +x deploy.sh
 language: android
 android:
   components:
