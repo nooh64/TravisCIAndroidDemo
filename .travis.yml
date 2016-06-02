@@ -43,4 +43,4 @@ before_script:
 script:
   - android list target
   - ./gradlew connectedAndroidTest
-  - deploy.sh
+  - ./deploy.sh
